@@ -124,6 +124,7 @@ jobs:
       - sbom-create
       - pack
     permissions:
+      actions: read
       contents: write
     steps:
       - name: Download the SBOM
